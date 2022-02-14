@@ -1,0 +1,25 @@
+body{
+    background-color: #eaeae8;
+}
+.logo{
+    height: 100%;
+    width: 160px;
+    vertical-align: top;
+    float: left;
+    margin: 10px;  
+}
+.container {
+   margin:0px auto;
+   width:960px; 
+}
+table{
+  width: 300px; 
+}
+img {
+    width: 300%;
+    height: auto;
+    
+}
+img:hover{
+    filter: brightness(50%);
+}
