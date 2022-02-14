@@ -10,7 +10,7 @@ body{
 }
 .container {
    margin:0px auto;
-   width:960px; 
+   width:980px; 
 }
 table{
   width: 300px; 
@@ -18,8 +18,17 @@ table{
 img {
     width: 300%;
     height: auto;
-    
 }
 img:hover{
     filter: brightness(50%);
 }
+.column {
+  float: left;
+  width: 25%;
+  padding: 7px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
